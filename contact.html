@@ -1,0 +1,64 @@
+ <!DOCTYPE html>
+                <html lang="en">
+                <head>
+                    <meta charset="UTF-8">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+                  
+                    <!-- Link to Bootstrap -->
+                    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"        
+                      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">   
+                    <!-- Link to your own CSS -->
+                    <link rel="stylesheet" type="text/css" href="style.css">    
+                    
+                    <!-- Link to Google Fonts -->
+                    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+                    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@700&family=Merriweather:wght@300&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+                    
+                    <title>Contact</title>
+                    
+                    <script>
+                        function sendMessage() {
+                            var userName = document.getElementById("name").value;
+                            alert("Thank you " + userName+"! I will respond to you shortly.");
+                        }
+                    </script>
+                    
+                </head>
+                  
+                <body>
+                <header class="col-xl-12">                                             
+                          <!-- Header Start -->
+                          <h1 class="text-capitalize">ERICKA WADLEIGH</h1>
+                           <!-- <h6 class="text-capitalize">Digital Media Manager</h6> -->
+                                
+                                <nav>                                        <!-- Navigation Start -->    
+                                    <a href="index.html" class="nav-item">HOME</a>
+                                    <a href="#" class="nav-item">PROJECTS</a>
+                                    <a href="#" class="nav-item">GALLERY</a>
+                                    <a href="#" class="nav-item">RESUME</a>
+                                    <a href="contact.html" class="nav-item">CONTACT</a>
+                                </nav>
+                        </header>
+                  
+                        <div id="main" class="container">                 <!-- Where you'll place the content for each page -->  
+                          <form onSubmit="sendMessage()" >
+                            <label for="Name">Name:</label>
+                             <input id="name" type="text" placeholder="Enter Full Name" class="form-control">
+                             
+                             <label for="phone">Phone:</label>
+                             <input id="phone" type="tel" placeholder="XXX-XXX-XXXX" class="form-control">
+                              
+                              <label for="Message">Message:</label>
+                              <textarea id="message" rows="10" class="form-control"></textarea>
+                             
+                              <input id="button" type="submit" class="btn btn-outline-dark mt-4">
+                            </form>
+                        </div>
+                    
+                  
+                    <footer class="fixed-bottom">
+                        <p>Ericka Wadleigh © 2020</p>
+                    </footer>
+                </body>
+</html>

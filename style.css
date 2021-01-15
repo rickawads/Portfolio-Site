@@ -1,0 +1,103 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{ 
+    background-color: #FFFFFF;
+}
+
+h1 {
+    font-family: 'Hind', sans-serif;
+    color: #C27A80;
+    }
+h2 {font-family: 'Hind', sans-serif;
+    text-align: center;
+        width: 50%;
+    align-content: center;
+    color: #FFFFFF;
+    padding-top: 8em;
+    
+}
+.gallery-content {
+    padding: 1em;
+}
+.intro{
+    color: #C27A80;
+    width: 50%;
+    padding-top: 2em;
+      display: flex;
+    align-content: center;
+}
+h6 h6 {
+    font-family: 'Montserrat', light;
+}
+nav {
+    text-align: right;
+    padding-left: 30em; 
+    padding-top: .5em;
+}
+
+.cliky{
+    color: #C27A80;
+    text-decoration-color: #E9BFBD;
+    text-decoration: underline;
+}
+
+.cliky:hover{
+    color: #DB8B58;
+    text-decoration: underline;
+}
+.nav-item {
+    flex: 1;
+    padding-left: 1em;
+    font-family: 'Source Sans Pro';
+    color: #DB8B58;
+    
+}
+.selfie{
+    width: 50%;
+}
+
+.nav-item:hover {
+    color: #E9BFBD;
+    text-decoration: none;
+}
+ .selfie {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2em;
+    text-align: center;
+}
+
+.selfie {
+    padding: 1em;
+    width: auto;
+  margin-top: 8px;
+  vertical-align: middle;
+} 
+
+
+/* Create two equal columns that sits next to each other */
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2em;
+}
+.column {
+  flex: 50%;
+  padding: 2em;
+}
+
+.column img {
+  margin-top: 1em;
+  vertical-align: middle;
+}
+header {
+    text-align: left;
+    padding: 1em;
+    display: flex;
+}
+footer {
+    text-align: center;
+    color: #C27A80;
+}
